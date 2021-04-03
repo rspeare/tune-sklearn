@@ -295,7 +295,7 @@ class TuneSearchCV(TuneBaseSearchCV):
                  return_train_score=False,
                  local_dir="~/ray_results",
                  name=None,
-                 sync_config=sync_config,
+                 sync_config=None,
                  max_iters=1,
                  search_optimization="random",
                  use_gpu=False,
